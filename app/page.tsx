@@ -8,7 +8,7 @@ export default function HomePage() {
 
       <div className="flex-grow">
         {/* HERO SECTION */}
-        <header className="container mx-auto px-4 py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
+        <header className="container mx-auto px-4 py-20 md:py-28 flex flex-col-reverse lg:flex-row gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
               High-Quality Human-Powered Data for AI
@@ -25,12 +25,12 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div className="hidden lg:block">
+          <div className="flex items-center justify-center">
             <Image
               src="/tes1.jpg"
               alt="Modern IT infrastructure"
-              width={600}
-              height={400}
+              width={1200}
+              height={700}
               className="rounded-xl shadow-2xl"
               objectFit="cover"
             />
